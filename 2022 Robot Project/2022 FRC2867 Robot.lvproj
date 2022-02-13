@@ -103,6 +103,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="TESTS" Type="Folder">
 				<Item Name="TEST - CLIMBER.vi" Type="VI" URL="../TESTS/TEST - CLIMBER.vi"/>
+				<Item Name="TEST - ARM ACTUATOR.vi" Type="VI" URL="../TESTS/TEST - ARM ACTUATOR.vi"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -113,12 +114,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="CONFIG NEO ARM ACTUATORS.vi" Type="VI" URL="../CONFIG NEO ARM ACTUATORS.vi"/>
+			<Item Name="WRITE NEO values.vi" Type="VI" URL="../WRITE NEO values.vi"/>
 			<Item Name="WRITE Falcon500 values.vi" Type="VI" URL="../WRITE Falcon500 values.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TEST - ARM ACTUATOR.vi" Type="VI" URL="../TESTS/TEST - ARM ACTUATOR.vi"/>
-		<Item Name="WRITE NEO values.vi" Type="VI" URL="../WRITE NEO values.vi"/>
-		<Item Name="CONFIG NEO ARM ACTUATORS.vi" Type="VI" URL="../CONFIG NEO ARM ACTUATORS.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
