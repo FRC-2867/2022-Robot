@@ -102,6 +102,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="TESTS" Type="Folder">
+				<Item Name="TEST - KICKER BUTTON PRESS.vi" Type="VI" URL="../TESTS/TEST - KICKER BUTTON PRESS.vi"/>
 				<Item Name="TEST - KICKER.vi" Type="VI" URL="../TESTS/TEST - KICKER.vi"/>
 				<Item Name="TEST - CLIMBER.vi" Type="VI" URL="../TESTS/TEST - CLIMBER.vi"/>
 				<Item Name="TEST - ARM ACTUATOR.vi" Type="VI" URL="../TESTS/TEST - ARM ACTUATOR.vi"/>
@@ -117,6 +118,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="CONFIG NEO ARM ACTUATORS.vi" Type="VI" URL="../CONFIG NEO ARM ACTUATORS.vi"/>
 			<Item Name="WRITE NEO values.vi" Type="VI" URL="../WRITE NEO values.vi"/>
+			<Item Name="ROTATE KICKER.vi" Type="VI" URL="../TESTS/ROTATE KICKER.vi"/>
 			<Item Name="WRITE Falcon500 values.vi" Type="VI" URL="../WRITE Falcon500 values.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
