@@ -117,6 +117,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WRITE Falcon500 values.vi" Type="VI" URL="../WRITE Falcon500 values.vi"/>
 				<Item Name="OPEN &amp; CONFIG ARMS.vi" Type="VI" URL="../OPEN &amp; CONFIG ARMS.vi"/>
 				<Item Name="DRIVE PID.vi" Type="VI" URL="../DRIVE PID/DRIVE PID.vi"/>
+				<Item Name="READ POV angles.vi" Type="VI" URL="../READ POV angles.vi"/>
+				<Item Name="defCameraPOVservos.ctl" Type="VI" URL="../defCameraPOVservos.ctl"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
