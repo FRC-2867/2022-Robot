@@ -902,8 +902,8 @@
 				<Item Name="Parallax Standard Servo Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Parallax Standard Servo/HAIOL/Simulator/Parallax Standard Servo Simulator.lvclass"/>
 				<Item Name="Devantech SRF05 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Devantech SRF05/HAIOL/Simulator/Devantech SRF05 Simulator.lvclass"/>
 			</Item>
-			<Item Name="WRITE NEO values.vi" Type="VI" URL="../WRITE NEO values.vi"/>
-			<Item Name="WRITE Falcon500 values.vi" Type="VI" URL="../WRITE Falcon500 values.vi"/>
+			<Item Name="READ NEO values.vi" Type="VI" URL="../READ NEO values.vi"/>
+			<Item Name="READ Falcon500 values.vi" Type="VI" URL="../READ Falcon500 values.vi"/>
 			<Item Name="READ NavX.vi" Type="VI" URL="../READ NavX.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -913,7 +913,7 @@
 			<Item Name="CHECK Color V3.vi" Type="VI" URL="../CHECK Color V3.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="OPEN &amp; CONFIG SEAT MOTOR.vi" Type="VI" URL="../OPEN &amp; CONFIG SEAT MOTOR.vi"/>
-			<Item Name="CONFIG Falcon500 DRIVES.vi" Type="VI" URL="../CONFIG Falcon500 DRIVES.vi"/>
+			<Item Name="OPEN &amp; CONFIG Falcon500 DRIVES.vi" Type="VI" URL="../OPEN &amp; CONFIG Falcon500 DRIVES.vi"/>
 			<Item Name="LVODE.dll" Type="Document" URL="LVODE.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1023,11 +1023,11 @@ AddOutputFilter chunkFilter
 				<Item Name="CHECK Color V3.vi" Type="VI" URL="../CHECK Color V3.vi"/>
 				<Item Name="OPEN &amp; CONFIG SEAT MOTOR.vi" Type="VI" URL="../OPEN &amp; CONFIG SEAT MOTOR.vi"/>
 				<Item Name="READ NavX.vi" Type="VI" URL="../READ NavX.vi"/>
-				<Item Name="CONFIG Falcon500 DRIVES.vi" Type="VI" URL="../CONFIG Falcon500 DRIVES.vi"/>
+				<Item Name="OPEN &amp; CONFIG Falcon500 DRIVES.vi" Type="VI" URL="../OPEN &amp; CONFIG Falcon500 DRIVES.vi"/>
 				<Item Name="CONFIG NEO ARM ACTUATORS.vi" Type="VI" URL="../CONFIG NEO ARM ACTUATORS.vi"/>
-				<Item Name="WRITE NEO values.vi" Type="VI" URL="../WRITE NEO values.vi"/>
+				<Item Name="READ NEO values.vi" Type="VI" URL="../READ NEO values.vi"/>
 				<Item Name="ROTATE KICKER.vi" Type="VI" URL="../TESTS/ROTATE KICKER.vi"/>
-				<Item Name="WRITE Falcon500 values.vi" Type="VI" URL="../WRITE Falcon500 values.vi"/>
+				<Item Name="READ Falcon500 values.vi" Type="VI" URL="../READ Falcon500 values.vi"/>
 				<Item Name="OPEN &amp; CONFIG ARMS.vi" Type="VI" URL="../OPEN &amp; CONFIG ARMS.vi"/>
 				<Item Name="DRIVE PID.vi" Type="VI" URL="../DRIVE PID/DRIVE PID.vi"/>
 				<Item Name="READ POV angles.vi" Type="VI" URL="../READ POV angles.vi"/>
