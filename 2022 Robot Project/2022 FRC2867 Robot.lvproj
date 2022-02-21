@@ -18,7 +18,6 @@
 			<Item Name="controls test.vi" Type="VI" URL="../controls test.vi"/>
 			<Item Name="ref Begin.vi" Type="VI" URL="../refs/ref Begin.vi"/>
 		</Item>
-		<Item Name="testing arm geometry.vi" Type="VI" URL="../refs/testing arm geometry.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
@@ -1032,6 +1031,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DRIVE PID.vi" Type="VI" URL="../DRIVE PID/DRIVE PID.vi"/>
 				<Item Name="READ POV angles.vi" Type="VI" URL="../READ POV angles.vi"/>
 				<Item Name="defCameraPOVservos.ctl" Type="VI" URL="../defCameraPOVservos.ctl"/>
+				<Item Name="CHECK arm geometry.vi" Type="VI" URL="../refs/CHECK arm geometry.vi"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
