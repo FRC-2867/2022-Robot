@@ -1818,15 +1818,50 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Get.vi"/>
 				<Item Name="WPI_AnalogChannelGetVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelGetVoltage.vi"/>
-				<Item Name="CTRE_Phoenix_MotorController_ClearStickyFaults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Errors and Faults/CTRE_Phoenix_MotorController_ClearStickyFaults.vi"/>
 				<Item Name="WPI_CounterRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterRefNum Registry Set.vi"/>
+				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
+				<Item Name="spilib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_writeread.vi"/>
+				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
+				<Item Name="spilib_setopts.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
+				<Item Name="spilib_setspeed.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
+				<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
+				<Item Name="spilib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
+				<Item Name="WPI_SPI_ERRSPIAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRSPIAlreadyAllocated.vi"/>
+				<Item Name="WPI_SPI_ERRInvalidSPI_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRInvalidSPI_Index.vi"/>
+				<Item Name="WPI_SPIBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCache.vi"/>
+				<Item Name="WPI_SPIMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIMode.ctl"/>
+				<Item Name="WPI_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIOpen.vi"/>
+				<Item Name="ADXL362 Range.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/ADXL362 Range.ctl"/>
+				<Item Name="WPI_AccelerometerADXL345 Axes.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345 Axes.ctl"/>
+				<Item Name="ADXL345 Range.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/ADXL345 Range.ctl"/>
+				<Item Name="WPI_AccelerometerAnalogChannels.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogChannels.ctl"/>
+				<Item Name="WPI_AccelerometerScaling.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerScaling.ctl"/>
+				<Item Name="WPI_AccelerometerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerDevRef.ctl"/>
+				<Item Name="WPI_AccelerometerADXL362_SPI_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL362_SPI_Open.vi"/>
+				<Item Name="FRC myRIO v1.0 Read I2C.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/myRIO_I2C/vis/FRC myRIO v1.0 Read I2C.vi"/>
+				<Item Name="FRC myRIO v1.0 Write I2C.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/myRIO_I2C/vis/FRC myRIO v1.0 Write I2C.vi"/>
+				<Item Name="FRC myRIO v1.0 Configure I2C.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/myRIO_I2C/vis/FRC myRIO v1.0 Configure I2C.vi"/>
+				<Item Name="WPI_Accelerometer_Internal_MMA8452Q_Registers.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_Accelerometer_Internal_MMA8452Q_Registers.ctl"/>
+				<Item Name="WPI_AccelerometerRange.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRange.ctl"/>
+				<Item Name="WPI_AccelerometerInternalOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_AccelerometerInternalOpen.vi"/>
+				<Item Name="WPI_AccelerometerADXL345_SPI_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_SPI_Open.vi"/>
+				<Item Name="WPI_AccelerometerADXL345_I2C_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_I2C_Open.vi"/>
+				<Item Name="WPI_AccelerometerAnalogOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogOpen.vi"/>
+				<Item Name="WPI_AccelerometerOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerOpen.vi"/>
+				<Item Name="WPI_AccelerometerRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRefNum Registry Set.vi"/>
+				<Item Name="WPI_AccelerometerRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRefNum Registry Get.vi"/>
+				<Item Name="WPI_AccelerometerADXL362_SPI_Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL362_SPI_Get.vi"/>
+				<Item Name="WPI_AccelerometerInternalGetAcceleration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_AccelerometerInternalGetAcceleration.vi"/>
+				<Item Name="WPI_AccelerometerADXL345_SPI_Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_SPI_Get.vi"/>
+				<Item Name="WPI_AccelerometerADXL345_I2C_Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_I2C_Get.vi"/>
+				<Item Name="WPI_AccelerometerAnalogGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogGet.vi"/>
+				<Item Name="WPI_AccelerometerGetAcceleration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerGetAcceleration.vi"/>
 				<Item Name="WPI_SerialPort.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPort.ctl"/>
 				<Item Name="Z900_navX_SerialStreamTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_SerialStreamTypeDef.ctl"/>
 				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 				<Item Name="Get_STREAM_TYPE.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Advanced/Get_STREAM_TYPE.vi"/>
 				<Item Name="FRIC_navX_Clear_Buffer_Warning.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Clear_Buffer_Warning.vi"/>
 				<Item Name="WPI_SerialPortRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortRef.ctl"/>
-				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
 				<Item Name="Z900_navX_IntegrationControlRegisters.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_IntegrationControlRegisters.ctl"/>
 				<Item Name="Z900_navX_ActionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ActionTypeDef.ctl"/>
 				<Item Name="Z900_navX_NotifyPacketTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_NotifyPacketTypeDef.ctl"/>
@@ -1881,19 +1916,8 @@ AddOutputFilter chunkFilter
 				<Item Name="FRIC_navX_Internal_USB_ProcessingLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_USB_ProcessingLoop.vi"/>
 				<Item Name="FRIC_navX_Internal_Serial_ProcessingLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_Serial_ProcessingLoop.vi"/>
 				<Item Name="navX_SPI_CRC.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Device/_Internal/SPI/navX_SPI_CRC.vi"/>
-				<Item Name="spilib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_writeread.vi"/>
-				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
 				<Item Name="spilib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_read.vi"/>
 				<Item Name="WPI_SPIRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRead.vi"/>
-				<Item Name="spilib_setopts.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setopts.vi"/>
-				<Item Name="spilib_setspeed.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_setspeed.vi"/>
-				<Item Name="FPGA_SPIWriteChipSelectActiveHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChipSelectActiveHigh.vi"/>
-				<Item Name="spilib_open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_open.vi"/>
-				<Item Name="WPI_SPI_ERRSPIAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRSPIAlreadyAllocated.vi"/>
-				<Item Name="WPI_SPI_ERRInvalidSPI_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPI_ERRInvalidSPI_Index.vi"/>
-				<Item Name="WPI_SPIBusCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCache.vi"/>
-				<Item Name="WPI_SPIMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIMode.ctl"/>
-				<Item Name="WPI_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIOpen.vi"/>
 				<Item Name="FRIC_navX_Internal_SPI_GenerateCommand.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_SPI_GenerateCommand.vi"/>
 				<Item Name="spilib_close.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/spilib/spilib_close.vi"/>
 				<Item Name="WPI_SPIClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIClose.vi"/>
@@ -1903,31 +1927,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_I2CClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CClose.vi"/>
 				<Item Name="FRIC_navX_Internal_I2C_ProcessingLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_I2C_ProcessingLoop.vi"/>
 				<Item Name="NavX Main.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/NavX Main.vi"/>
-				<Item Name="ADXL362 Range.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/ADXL362 Range.ctl"/>
-				<Item Name="WPI_AccelerometerADXL345 Axes.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345 Axes.ctl"/>
-				<Item Name="ADXL345 Range.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/ADXL345 Range.ctl"/>
-				<Item Name="WPI_AccelerometerAnalogChannels.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogChannels.ctl"/>
-				<Item Name="WPI_AccelerometerScaling.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerScaling.ctl"/>
-				<Item Name="WPI_AccelerometerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerDevRef.ctl"/>
-				<Item Name="WPI_AccelerometerADXL362_SPI_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL362_SPI_Open.vi"/>
-				<Item Name="FRC myRIO v1.0 Read I2C.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/myRIO_I2C/vis/FRC myRIO v1.0 Read I2C.vi"/>
-				<Item Name="FRC myRIO v1.0 Write I2C.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/myRIO_I2C/vis/FRC myRIO v1.0 Write I2C.vi"/>
-				<Item Name="FRC myRIO v1.0 Configure I2C.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/myRIO_I2C/vis/FRC myRIO v1.0 Configure I2C.vi"/>
-				<Item Name="WPI_Accelerometer_Internal_MMA8452Q_Registers.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_Accelerometer_Internal_MMA8452Q_Registers.ctl"/>
-				<Item Name="WPI_AccelerometerRange.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRange.ctl"/>
-				<Item Name="WPI_AccelerometerInternalOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_AccelerometerInternalOpen.vi"/>
-				<Item Name="WPI_AccelerometerADXL345_SPI_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_SPI_Open.vi"/>
-				<Item Name="WPI_AccelerometerADXL345_I2C_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_I2C_Open.vi"/>
-				<Item Name="WPI_AccelerometerAnalogOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogOpen.vi"/>
-				<Item Name="WPI_AccelerometerOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerOpen.vi"/>
-				<Item Name="WPI_AccelerometerRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRefNum Registry Set.vi"/>
-				<Item Name="WPI_AccelerometerRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerRefNum Registry Get.vi"/>
-				<Item Name="WPI_AccelerometerADXL362_SPI_Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL362_SPI_Get.vi"/>
-				<Item Name="WPI_AccelerometerInternalGetAcceleration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/InternalAccelerometer/WPI_AccelerometerInternalGetAcceleration.vi"/>
-				<Item Name="WPI_AccelerometerADXL345_SPI_Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_SPI_Get.vi"/>
-				<Item Name="WPI_AccelerometerADXL345_I2C_Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerADXL345_I2C_Get.vi"/>
-				<Item Name="WPI_AccelerometerAnalogGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerAnalogGet.vi"/>
-				<Item Name="WPI_AccelerometerGetAcceleration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Accelerometer/WPI_AccelerometerGetAcceleration.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
